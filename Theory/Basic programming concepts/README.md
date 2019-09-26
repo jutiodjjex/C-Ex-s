@@ -54,6 +54,8 @@
   | switch        | synchronized  | this          | throw         | throws       |
   | transistent   | try           | void          | volatile      | while        |
   
+  (Подробнее - https://ru.cppreference.com/w/cpp/keyword)
+  
 - **Знаки операций (операторов)** – это один
   или более специальных символов,
   определяющих действия, которые должны

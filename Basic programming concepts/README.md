@@ -39,16 +39,18 @@
   Формально слова true, false и null не входят в число ключевых слов, но их
   тоже нельзя использовать в качестве имен.
   
-  | ------------- | ------------- | ------------- | ------------- |------------- |
-  | abstract      | Content Cell  | Content Cell  | Content Cell  | Content Cell |
-  | case          | Content Cell  | Content Cell  | Content Cell  | Content Cell |
-  | continue      | Content Cell  | Content Cell  | Content Cell  | Content Cell |
-  | enum          | Content Cell  | Content Cell  | Content Cell  | Content Cell |
-  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell |
-  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell |
-  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell |
-  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell |
-  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell |
+  | Ключевые слова              |
+  | :-----------: | :-----------: | :-----------: | :-----------: | :----------: |
+  | abstract      | assert        | boolean       | break         | byte         |
+  | case          | catch         | char          | class         | const        |
+  | continue      | default       | do            | double        | else         |
+  | enum          | extends       | final         | finally       | float        |
+  | for           | goto          | if            | implements    | import       |
+  | instanceof    | int           | interface     | long          | native       |
+  | new           | package       | private       | protected     | public       |
+  | return        | short         | static        | strictfp      | super        |
+  | switch        | synchronized  | this          | throw         | throws       |
+  | transistent   | try           | void          | volatile      | while        |
   
 - **Знаки операций (операторов)** – это один
   или более специальных символов,

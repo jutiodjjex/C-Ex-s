@@ -14,9 +14,9 @@ int main()
     std::random_device r;
 
     //Выбираем случайное число в промежутке от 1 до 10
-    std::default_random_engine e1(r()); //Вызываем шаблон(конструктор) класса default_random_engine, аргументом является экземпляр           объекта random_device, идентификатор - e1 (example1).
-    std::uniform_int_distribution<int> uniform_dist(1, 10); //Определяем тип данных, в данном случае int, определяем промежуток, в           данном случае от 1 до 10.
-    int mean = uniform_dist(e1); //Объявляем и инициализируем переменную, используя метод класса random, аргументом является экземпляр       класса default_random_engine.
+    std::default_random_engine e1(r()); //Вызываем шаблон(конструктор) класса default_random_engine, аргументом является экземпляр объекта random_device, идентификатор - e1 (example1).
+    std::uniform_int_distribution<int> uniform_dist(1, 10); //Определяем тип данных, в данном случае int, определяем промежуток, в данном случае от 1 до 10.
+    int mean = uniform_dist(e1); //Объявляем и инициализируем переменную, используя метод класса random, аргументом является экземпляр класса default_random_engine.
     std::cout << "Randomly-chosen mean: " << mean << '\n'; //Выводим полученное рандомное числа типа int
 
     return 0

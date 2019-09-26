@@ -15,8 +15,8 @@
 **std::cout << "Randomly-chosen mean: " << mean << '\n';** *//Выводим полученное рандомное числа типа int* <br>
 
 
-Подробнее почитать можно тут: https://ru.cppreference.com/w/cpp/numeric/random <br>
-Подробнее почитать про устаревший рандом можно тут (но лучше не надо): https://ru.cppreference.com/w/cpp/numeric/random/rand <br>
+Подробнее почитать можно тут: <br> https://ru.cppreference.com/w/cpp/numeric/random <br> <br>
+Подробнее почитать про устаревший рандом можно тут (но лучше не надо): <br> https://ru.cppreference.com/w/cpp/numeric/random/rand <br>
 
 
 

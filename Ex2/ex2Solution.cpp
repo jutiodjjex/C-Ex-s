@@ -1,7 +1,7 @@
 #include <iostream>
 #include <random>
 
-
+//Определяем начисление кол-ва очков за попадание
 int getScore(int getShotRange){
     
     switch(getShotRange){
@@ -47,8 +47,6 @@ int main()
     std::cout << "Score for " << i << " shot is: " << tempShotScore << std::endl;
     
     }
-    
-    //Определяем начисление кол-ва очков за попадание
     
     std::cout << "Your score: " << summaryScore << std::endl;
     
